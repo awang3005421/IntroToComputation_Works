@@ -1,0 +1,29 @@
+/* Remove the default space around the webpage */
+html, body {
+  margin: 0;
+
+  /* Make the page as wide as the browser window */
+  width: 100%;
+
+  /* Make the page at least as tall as its container */
+  min-height: 100%;
+}
+
+body {
+  /* Make the page at least as tall as the browser window */
+  min-height: 100vh;
+
+  /* Use Flexbox to position the canvas, enables flexible positioning */
+  display: flex; 
+
+  /* Center the canvas horizontally */
+  justify-content: center;
+
+  /* Center the canvas vertically */
+  align-items: center;
+}
+
+canvas {
+  /* Remove extra spacing below the canvas */
+  display: block;
+}x: ;
